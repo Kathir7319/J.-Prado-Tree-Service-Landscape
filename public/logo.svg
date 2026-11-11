@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 90" width="460" height="90">
+  <defs>
+    <linearGradient id="treeGradFull" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22c55e" />
+      <stop offset="100%" stop-color="#14532d" />
+    </linearGradient>
+    <linearGradient id="goldGradFull" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="bgGradFull" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#14532d" />
+      <stop offset="100%" stop-color="#052e16" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left Emblem Group (cx=45, cy=45, r=40) -->
+  <g transform="translate(5, 5)">
+    <!-- Crest Background -->
+    <circle cx="40" cy="40" r="38" fill="url(#bgGradFull)" stroke="url(#goldGradFull)" stroke-width="2.5" />
+    <circle cx="40" cy="40" r="35" fill="none" stroke="#22c55e" stroke-width="0.75" stroke-dasharray="2,2" opacity="0.6" />
+    
+    <!-- Rolling Lawn Curves -->
+    <path d="M 12 58 Q 28 50, 44 55 Q 60 60, 68 56 L 68 64 Q 40 70, 12 64 Z" fill="#166534" />
+    <path d="M 15 61 Q 32 55, 52 58 Q 64 61, 66 63 L 66 65 Q 40 70, 15 65 Z" fill="#22c55e" opacity="0.45" />
+
+    <!-- Tree Trunk -->
+    <path d="M 37.5 58 L 37.5 40 Q 33.5 34, 30.5 30 L 32.5 29 Q 37.5 34, 39 38 L 39 58 Z" fill="url(#goldGradFull)" />
+    <path d="M 42.5 58 L 42.5 38 Q 45.5 33, 49.5 29 L 47.5 28 Q 43.5 33, 41 37 L 41 58 Z" fill="url(#goldGradFull)" />
+    
+    <!-- Tree Canopy Leaf Clusters -->
+    <circle cx="40" cy="24" r="11" fill="url(#treeGradFull)" />
+    <circle cx="29" cy="29" r="9" fill="#15803d" />
+    <circle cx="51" cy="29" r="9" fill="#16a34a" />
+    <circle cx="35" cy="34" r="7" fill="#166534" />
+    <circle cx="45" cy="34" r="7" fill="#22c55e" />
+
+    <!-- Highlight Leaf Center -->
+    <path d="M 40 18 Q 43 22, 40 26 Q 37 22, 40 18 Z" fill="#86efac" opacity="0.8" />
+  </g>
+
+  <!-- Typography Right Side -->
+  <g transform="translate(100, 15)">
+    <!-- Primary Name -->
+    <text x="0" y="32" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="800" font-size="28" fill="#14532d" letter-spacing="-0.5">
+      J. PRADO
+    </text>
+
+    <!-- Subtitle Banner -->
+    <text x="0" y="50" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="700" font-size="12" fill="#d97706" letter-spacing="2.8">
+      TREE SERVICE &amp; LANDSCAPE
+    </text>
+
+    <!-- Location & Quality Tagline -->
+    <text x="0" y="65" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="500" font-size="10.5" fill="#64748b" letter-spacing="0.5">
+      FUQUAY-VARINA, NC • LICENSED &amp; FREE ESTIMATES
+    </text>
+
+    <!-- Accent decorative bar -->
+    <rect x="0" y="72" width="130" height="2.5" rx="1.25" fill="url(#goldGradFull)" />
+    <rect x="135" y="72" width="30" height="2.5" rx="1.25" fill="#22c55e" />
+  </g>
+</svg>
